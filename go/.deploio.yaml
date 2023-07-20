@@ -1,3 +1,6 @@
 size: micro
 port: 8080
 replicas: 1
+env:
+  - name: BP_KEEP_FILES
+    value: "public/*"
